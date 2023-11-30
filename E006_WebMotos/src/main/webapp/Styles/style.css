@@ -1,0 +1,137 @@
+@charset "ISO-8859-1";
+
+@font-face{
+	font-family: 'Designer';
+	src: ('Fuentes/Designer.otf') format('truetype');
+}
+
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+	nav{
+		background-color: white;
+		color: black;
+	}
+	#menu{
+		border-bottom:1px #111111 solid;
+	}
+	.elem_menu{
+		display: inline-block;
+		list-style: none;
+		width: 15%;
+		
+	}
+		.elem_menu > a{
+			display: table;
+			background-color: white;
+			padding: 38px 50px;
+			font-size: 18px;
+			font-weight: bold;
+			text-decoration: none;
+			color:black;	
+			margin-left: 15px;	
+	
+			
+		}
+	.elem_menu_imagen{
+		padding: 2em;
+		display: inline-block;
+		list-style: none;
+		width: 50px;
+		height: 50px;
+	}
+	
+	
+		.elem_menu > a:hover{
+			background-color: whitesmoke;
+			text-decoration: overline;
+			border-left: 1px #111111 solid;
+		}	
+	h1{
+		font-family: 'Designer', sans-serif ;
+		color: red;
+		margin-left: 20px;
+		margin-top: 5px;
+	}
+	
+	h2{
+		font-family: 'Designer', sans-serif ;
+		color: lightslategrey;
+		margin-left: 20px;
+		margin-top: 5px;
+	}
+	
+	/* Contenedor moto principal */
+	
+	#cont_principal_motos{
+		
+		margin-top: 3em;
+		
+	}
+		.cont_moto_izq {
+			
+			float: left;
+			margin-top: 3em;
+			margin-left: 4em;
+			width: 200px;
+			height: 150px;
+			border: 1px black solid;	
+					
+		}
+		.cont_moto_der{
+			
+			margin-top: 2em;
+			margin-left:20em;
+			
+		}
+		#imagenes_motos{
+			
+			width: 200px;
+			height: 150px;
+			
+		}
+	#label_cont_motos{
+		
+		font-size: 20px;
+		font-weight: bold;
+		text-decoration: underline;
+		color: red;
+	}
+	
+	.p_cont_motos{
+		font-size:16px;
+	}
+	
+	.botonInsertar{
+		margin-bottom: 2em;
+	    margin-top: 1em;
+	    width: 14em;
+	    height: 4.2em;
+	    border-radius: 20px;
+	    margin-left: 4em;
+	    font-size: 15px;
+	    color: white;
+	    background-color: red;
+	}
+	
+	.botonInsertar:hover{
+		background-color: lightcoral;
+	}
+	
+	.enlaceBYM{
+		
+		text-decoration: none;
+	    background-color: red;
+	    font-size: 16px;
+	    color: white;
+	    border-radius: 15px;
+	    padding: 7px;
+	    margin: 1em;
+		
+	}
+	
+	.enlaceBYM:hover{
+		background-color: lightcoral;
+	}
